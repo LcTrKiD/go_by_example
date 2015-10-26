@@ -41,4 +41,5 @@ func main() {
 	stateful_goroutines()
 	sorting()
 	func_sorting()
+	defer_example()
 }
