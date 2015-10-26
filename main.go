@@ -24,4 +24,5 @@ func main() {
 	errors_example()
 	goroutines()
 	channels()
+	channel_buffering()
 }
