@@ -36,4 +36,5 @@ func main() {
 	tickers()
 	worker_pools()
 	rate_limiting()
+	atomic_counters()
 }
