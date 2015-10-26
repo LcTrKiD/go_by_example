@@ -30,4 +30,5 @@ func main() {
 	channel_select()
 	timeouts()
 	nonblocking_channel()
+	closing_channel()
 }
