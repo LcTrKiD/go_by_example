@@ -28,4 +28,5 @@ func main() {
 	channel_sync()
 	channel_direction()
 	channel_select()
+	timeouts()
 }
