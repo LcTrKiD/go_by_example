@@ -8,4 +8,5 @@ func main() {
 	for_example()
 	if_else()
 	switch_example()
+	arrays()
 }
