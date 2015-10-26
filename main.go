@@ -5,4 +5,5 @@ func main() {
 	values()
 	variables()
 	constants()
+	for_example()
 }
