@@ -49,4 +49,5 @@ func main() {
 	json_example()
 	time_example()
 	epoch()
+	time_ops()
 }
