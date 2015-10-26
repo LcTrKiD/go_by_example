@@ -6,4 +6,5 @@ func main() {
 	variables()
 	constants()
 	for_example()
+	if_else()
 }
