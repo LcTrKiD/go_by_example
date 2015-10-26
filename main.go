@@ -53,4 +53,5 @@ func main() {
 	random_numbers()
 	parsing_numbers()
 	sha()
+	base64_enc()
 }
