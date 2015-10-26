@@ -37,4 +37,5 @@ func main() {
 	worker_pools()
 	rate_limiting()
 	atomic_counters()
+	mutex()
 }
