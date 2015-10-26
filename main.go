@@ -54,4 +54,5 @@ func main() {
 	parsing_numbers()
 	sha()
 	base64_enc()
+	reading_files()
 }
