@@ -31,4 +31,5 @@ func main() {
 	timeouts()
 	nonblocking_channel()
 	closing_channel()
+	range_channel()
 }
