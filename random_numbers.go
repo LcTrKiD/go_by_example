@@ -53,4 +53,5 @@ func random_numbers() {
 	r3 := rand.New(s3)
 	fmt.Print(r3.Intn(100), ",")
 	fmt.Print(r3.Intn(100))
+	fmt.Println()
 }
