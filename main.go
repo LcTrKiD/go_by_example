@@ -14,4 +14,5 @@ func main() {
 	range_example()
 	functions()
 	multiple_return()
+	variadic_function()
 }
