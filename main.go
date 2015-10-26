@@ -20,4 +20,5 @@ func main() {
 	pointers()
 	structs()
 	methods()
+	interfaces()
 }
