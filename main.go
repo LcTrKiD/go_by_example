@@ -48,4 +48,5 @@ func main() {
 	regular_expressions()
 	json_example()
 	time_example()
+	epoch()
 }
