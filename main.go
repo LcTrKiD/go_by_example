@@ -32,4 +32,5 @@ func main() {
 	nonblocking_channel()
 	closing_channel()
 	range_channel()
+	timers()
 }
