@@ -42,4 +42,5 @@ func main() {
 	sorting()
 	func_sorting()
 	defer_example()
+	collection_funcs()
 }
