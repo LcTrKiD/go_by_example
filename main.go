@@ -33,4 +33,5 @@ func main() {
 	closing_channel()
 	range_channel()
 	timers()
+	tickers()
 }
