@@ -29,4 +29,5 @@ func main() {
 	channel_direction()
 	channel_select()
 	timeouts()
+	nonblocking_channel()
 }
