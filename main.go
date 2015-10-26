@@ -50,4 +50,5 @@ func main() {
 	time_example()
 	epoch()
 	time_ops()
+	random_numbers()
 }
