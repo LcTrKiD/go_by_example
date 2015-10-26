@@ -11,4 +11,5 @@ func main() {
 	arrays()
 	slices()
 	maps()
+	range_example()
 }
