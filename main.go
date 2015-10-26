@@ -7,4 +7,5 @@ func main() {
 	constants()
 	for_example()
 	if_else()
+	switch_example()
 }
