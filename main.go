@@ -16,4 +16,5 @@ func main() {
 	multiple_return()
 	variadic_function()
 	closures()
+	recursion()
 }
