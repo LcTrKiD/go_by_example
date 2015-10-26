@@ -51,4 +51,5 @@ func main() {
 	epoch()
 	time_ops()
 	random_numbers()
+	parsing_numbers()
 }
