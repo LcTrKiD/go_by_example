@@ -35,4 +35,5 @@ func main() {
 	timers()
 	tickers()
 	worker_pools()
+	rate_limiting()
 }
