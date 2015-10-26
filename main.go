@@ -55,4 +55,5 @@ func main() {
 	sha()
 	base64_enc()
 	reading_files()
+	writing_files()
 }
