@@ -15,4 +15,5 @@ func main() {
 	functions()
 	multiple_return()
 	variadic_function()
+	closures()
 }
