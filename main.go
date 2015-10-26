@@ -26,4 +26,5 @@ func main() {
 	channels()
 	channel_buffering()
 	channel_sync()
+	channel_direction()
 }
