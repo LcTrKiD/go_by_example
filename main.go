@@ -52,4 +52,5 @@ func main() {
 	time_ops()
 	random_numbers()
 	parsing_numbers()
+	sha()
 }
