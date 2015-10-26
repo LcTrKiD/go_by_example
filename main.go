@@ -22,4 +22,5 @@ func main() {
 	methods()
 	interfaces()
 	errors_example()
+	goroutines()
 }
