@@ -43,4 +43,5 @@ func main() {
 	func_sorting()
 	defer_example()
 	collection_funcs()
+	string_functions()
 }
