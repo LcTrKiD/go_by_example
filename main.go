@@ -9,4 +9,5 @@ func main() {
 	if_else()
 	switch_example()
 	arrays()
+	slices()
 }
