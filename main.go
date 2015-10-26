@@ -13,4 +13,5 @@ func main() {
 	maps()
 	range_example()
 	functions()
+	multiple_return()
 }
