@@ -44,4 +44,5 @@ func main() {
 	defer_example()
 	collection_funcs()
 	string_functions()
+	string_format()
 }
