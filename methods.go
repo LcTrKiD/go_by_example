@@ -4,23 +4,23 @@ package main
 
 import "fmt"
 
-type rect struct {
+type rectst struct {
 	width, height int
 }
 
-// This `area` method has a _receiver type_ of `*rect`.
-func (r *rect) area() int {
+// This `area` method has a _receiver type_ of `*rectst`.
+func (r *rectst) area() int {
 	return r.width * r.height
 }
 
 // Methods can be defined for either pointer or value
 // receiver types. Here's an example of a value receiver.
-func (r rect) perim() int {
+func (r rectst) perim() int {
 	return 2*r.width + 2*r.height
 }
 
 func methods() {
-	r := rect{width: 10, height: 5}
+	r := rectst{width: 10, height: 5}
 
 	// Here we call the 2 methods defined for our struct.
 	fmt.Println("area: ", r.area())
