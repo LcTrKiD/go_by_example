@@ -45,4 +45,5 @@ func main() {
 	collection_funcs()
 	string_functions()
 	string_format()
+	regular_expressions()
 }
