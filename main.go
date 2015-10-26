@@ -21,4 +21,5 @@ func main() {
 	structs()
 	methods()
 	interfaces()
+	errors_example()
 }
