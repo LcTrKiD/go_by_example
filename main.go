@@ -17,4 +17,5 @@ func main() {
 	variadic_function()
 	closures()
 	recursion()
+	pointers()
 }
