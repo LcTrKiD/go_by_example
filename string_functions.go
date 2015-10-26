@@ -12,14 +12,14 @@ import "fmt"
 var p = fmt.Println
 
 func string_functions() {
+	p("<string_functions>")
+	p("<---------------->")
 
 	// Here's a sample of the functions available in
 	// `strings`. Note that these are all functions from
 	// package, not methods on the string object itself.
 	// This means that we need pass the string in question
 	// as the first argument to the function.
-        p("<string_functions>")
-        p("<---------------->")
 	p("Contains:  ", x.Contains("test", "es"))
 	p("Count:     ", x.Count("test", "t"))
 	p("HasPrefix: ", x.HasPrefix("test", "te"))

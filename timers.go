@@ -10,6 +10,8 @@ import "time"
 import "fmt"
 
 func timers() {
+	fmt.Println("<timers>")
+	fmt.Println("<------>")
 
 	// Timers represent a single event in the future. You
 	// tell the timer how long you want to wait, and it

@@ -35,6 +35,8 @@ type writeOp struct {
 }
 
 func stateful_goroutines() {
+	fmt.Println("<stateful_goroutines>")
+	fmt.Println("<------------------->")
 
 	// As before we'll count how many operations we perform.
 	var ops int64 = 0

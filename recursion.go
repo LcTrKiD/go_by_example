@@ -16,5 +16,8 @@ func fact(n int) int {
 }
 
 func recursion() {
+	fmt.Println("<recursion>")
+	fmt.Println("<--------->")
+
 	fmt.Println(fact(7))
 }

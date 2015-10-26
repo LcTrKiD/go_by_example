@@ -83,6 +83,8 @@ func Map(vs []string, f func(string) string) []string {
 }
 
 func collection_funcs() {
+	fmt.Println("<collection_funcs>")
+	fmt.Println("<---------------->")
 
 	// Here we try out our various collection functions.
 	var strs = []string{"peach", "apple", "pear", "plum"}

@@ -20,6 +20,9 @@ func (r rectst) perim() int {
 }
 
 func methods() {
+	fmt.Println("<methods>")
+	fmt.Println("<------->")
+
 	r := rectst{width: 10, height: 5}
 
 	// Here we call the 2 methods defined for our struct.

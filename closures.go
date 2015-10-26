@@ -20,6 +20,8 @@ func intSeq() func() int {
 }
 
 func closures() {
+	fmt.Println("<closures>")
+	fmt.Println("<-------->")
 
 	// We call `intSeq`, assigning the result (a function)
 	// to `nextInt`. This function value captures its

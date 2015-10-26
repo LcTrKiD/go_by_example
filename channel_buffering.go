@@ -10,6 +10,8 @@ package main
 import "fmt"
 
 func channel_buffering() {
+	fmt.Println("<channel_buffering>")
+	fmt.Println("<----------------->")
 
 	// Here we `make` a channel of strings buffering up to
 	// 2 values.

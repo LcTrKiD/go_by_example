@@ -8,6 +8,8 @@ import "fmt"
 import "sort"
 
 func sorting() {
+	fmt.Println("<sorting>")
+	fmt.Println("<------->")
 
 	// Sort methods are specific to the builtin type;
 	// here's an example for strings. Note that sorting is

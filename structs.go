@@ -13,6 +13,8 @@ type person struct {
 }
 
 func structs() {
+	fmt.Println("<structs>")
+	fmt.Println("<------->")
 
 	// This syntax creates a new struct.
 	fmt.Println(person{"Bob", 20})

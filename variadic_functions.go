@@ -18,6 +18,8 @@ func sum(nums ...int) {
 }
 
 func variadic_function() {
+	fmt.Println("<variadic_function>")
+	fmt.Println("<----------------->")
 
 	// Variadic functions can be called in the usual way
 	// with individual arguments.

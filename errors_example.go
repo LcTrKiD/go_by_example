@@ -53,6 +53,8 @@ func f2(arg int) (int, error) {
 }
 
 func errors_example() {
+	fmt.Println("<errors_example>")
+	fmt.Println("<-------------->")
 
 	// The two loops below test out each of our
 	// error-returning functions. Note that the use of an

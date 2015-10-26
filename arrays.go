@@ -6,6 +6,8 @@ package main
 import "fmt"
 
 func arrays() {
+	fmt.Println("<arrays>")
+	fmt.Println("<------>")
 
 	// Here we create an array `a` that will hold exactly
 	// 5 `int`s. The type of elements and length are both

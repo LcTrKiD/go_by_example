@@ -10,6 +10,9 @@ import "math"
 const s string = "constant"
 
 func constants() {
+	fmt.Println("<constants>")
+	fmt.Println("<--------->")
+
 	fmt.Println(s)
 
 	// A `const` statement can appear anywhere a `var`

@@ -10,6 +10,8 @@ import "time"
 import "fmt"
 
 func rate_limiting() {
+	fmt.Println("<rate_limiting>")
+	fmt.Println("<------------->")
 
 	// First we'll look at basic rate limiting. Suppose
 	// we want to limit our handling of incoming requests.

@@ -13,6 +13,8 @@ import "sync/atomic"
 import "runtime"
 
 func atomic_counters() {
+	fmt.Println("<atomic_counters>")
+	fmt.Println("<--------------->")
 
 	// We'll use an unsigned integer to represent our
 	// (always-positive) counter.

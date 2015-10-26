@@ -15,6 +15,8 @@ import (
 )
 
 func mutex() {
+	fmt.Println("<mutex>")
+	fmt.Println("<----->")
 
 	// For our example the `state` will be a map.
 	var state = make(map[int]int)

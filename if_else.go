@@ -6,6 +6,8 @@ package main
 import "fmt"
 
 func if_else() {
+	fmt.Println("<if_else>")
+	fmt.Println("<------->")
 
 	// Here's a basic example.
 	if 7%2 == 0 {

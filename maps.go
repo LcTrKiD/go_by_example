@@ -6,6 +6,8 @@ package main
 import "fmt"
 
 func maps() {
+	fmt.Println("<maps>")
+	fmt.Println("<---->")
 
 	// To create an empty map, use the builtin `make`:
 	// `make(map[key-type]val-type)`.

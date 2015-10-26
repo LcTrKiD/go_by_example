@@ -7,6 +7,8 @@ package main
 import "fmt"
 
 func variables() {
+	fmt.Println("<variables>")
+	fmt.Println("<--------->")
 
 	// `var` declares 1 or more variables.
 	var a string = "initial"

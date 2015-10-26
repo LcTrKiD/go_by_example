@@ -10,6 +10,8 @@ import "time"
 import "fmt"
 
 func tickers() {
+	fmt.Println("<tickers>")
+	fmt.Println("<------->")
 
 	// Tickers use a similar mechanism to timers: a
 	// channel that is sent values. Here we'll use the

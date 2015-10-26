@@ -13,6 +13,8 @@ func vals() (int, int) {
 }
 
 func multiple_return() {
+	fmt.Println("<multiple_return>")
+	fmt.Println("<--------------->")
 
 	// Here we use the 2 different return values from the
 	// call with _multiple assignment_.

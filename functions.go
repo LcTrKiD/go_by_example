@@ -24,6 +24,8 @@ func plusPlus(a, b, c int) int {
 }
 
 func functions() {
+	fmt.Println("<functions>")
+	fmt.Println("<--------->")
 
 	// Call a function just as you'd expect, with
 	// `name(args)`.

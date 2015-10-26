@@ -11,6 +11,9 @@ import "fmt"
 // to a worker goroutine. When we have no more jobs for
 // the worker we'll `close` the `jobs` channel.
 func closing_channel() {
+	fmt.Println("<closing_channel>")
+	fmt.Println("<--------------->")
+
 	jobs := make(chan int, 5)
 	done := make(chan bool)
 

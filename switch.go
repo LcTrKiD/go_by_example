@@ -7,6 +7,8 @@ import "fmt"
 import "time"
 
 func switch_example() {
+	fmt.Println("<switch_example>")
+	fmt.Println("<-------------->")
 
 	// Here's a basic `switch`.
 	i := 2

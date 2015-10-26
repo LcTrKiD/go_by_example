@@ -6,6 +6,8 @@ package main
 import "fmt"
 
 func for_example() {
+	fmt.Println("<for_example>")
+	fmt.Println("<----------->")
 
 	// The most basic type, with a single condition.
 	i := 1

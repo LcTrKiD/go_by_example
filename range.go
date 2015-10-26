@@ -7,6 +7,8 @@ package main
 import "fmt"
 
 func range_example() {
+	fmt.Println("<range_example>")
+	fmt.Println("<------------->")
 
 	// Here we use `range` to sum the numbers in a slice.
 	// Arrays work like this too.

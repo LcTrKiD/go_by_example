@@ -8,6 +8,9 @@ package main
 import "fmt"
 
 func nonblocking_channel() {
+	fmt.Println("<nonblocking_channel>")
+	fmt.Println("<------------------->")
+
 	messages := make(chan string)
 	signals := make(chan bool)
 

@@ -22,6 +22,8 @@ func pong(pings <-chan string, pongs chan<- string) {
 }
 
 func channel_direction() {
+	fmt.Println("<channel_direction>")
+	fmt.Println("<----------------->")
 	pings := make(chan string, 1)
 	pongs := make(chan string, 1)
 	ping(pings, "passed message")

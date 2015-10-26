@@ -6,6 +6,8 @@ package main
 import "fmt"
 
 func slices() {
+	fmt.Println("<slices>")
+	fmt.Println("<------>")
 
 	// Unlike arrays, slices are typed only by the
 	// elements they contain (not the number of elements).

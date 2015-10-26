@@ -37,6 +37,9 @@ func (s ByLength) Less(i, j int) bool {
 // `ByLength`, and then use `sort.Sort` on that typed
 // slice.
 func func_sorting() {
+	fmt.Println("<func_sorting>")
+	fmt.Println("<------------>")
+
 	fruits := []string{"peach", "banana", "kiwi"}
 	sort.Sort(ByLength(fruits))
 	fmt.Println(fruits)

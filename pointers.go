@@ -26,6 +26,9 @@ func zeroptr(iptr *int) {
 }
 
 func pointers() {
+	fmt.Println("<pointers>")
+	fmt.Println("<-------->")
+
 	i := 1
 	fmt.Println("initial:", i)
 

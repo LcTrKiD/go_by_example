@@ -20,6 +20,8 @@ func sworker(done chan bool) {
 }
 
 func channel_sync() {
+	fmt.Println("<channel_sync>")
+	fmt.Println("<------------>")
 
 	// Start a worker goroutine, giving it the channel to
 	// notify on.

@@ -8,6 +8,8 @@ package main
 import "fmt"
 
 func range_channel() {
+	fmt.Println("<range_channel>")
+	fmt.Println("<------------->")
 
 	// We'll iterate over 2 values in the `queue` channel.
 	queue := make(chan string, 2)

@@ -8,6 +8,8 @@ import "time"
 import "fmt"
 
 func channel_select() {
+	fmt.Println("<channel_select>")
+	fmt.Println("<-------------->")
 
 	// For our example we'll select across two channels.
 	c1 := make(chan string)

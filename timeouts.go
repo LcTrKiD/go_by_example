@@ -9,6 +9,8 @@ import "time"
 import "fmt"
 
 func timeouts() {
+	fmt.Println("<timeouts>")
+	fmt.Println("<-------->")
 
 	// For our example, suppose we're executing an external
 	// call that returns its result on a channel `c1`
