@@ -34,4 +34,5 @@ func main() {
 	range_channel()
 	timers()
 	tickers()
+	worker_pools()
 }
