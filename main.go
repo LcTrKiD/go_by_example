@@ -23,4 +23,5 @@ func main() {
 	interfaces()
 	errors_example()
 	goroutines()
+	channels()
 }
