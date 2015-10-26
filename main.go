@@ -25,4 +25,5 @@ func main() {
 	goroutines()
 	channels()
 	channel_buffering()
+	channel_sync()
 }
