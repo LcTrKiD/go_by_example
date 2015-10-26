@@ -19,4 +19,5 @@ func main() {
 	recursion()
 	pointers()
 	structs()
+	methods()
 }
