@@ -38,4 +38,5 @@ func main() {
 	rate_limiting()
 	atomic_counters()
 	mutex()
+	stateful_goroutines()
 }
