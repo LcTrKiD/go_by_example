@@ -47,4 +47,5 @@ func main() {
 	string_format()
 	regular_expressions()
 	json_example()
+	time_example()
 }
