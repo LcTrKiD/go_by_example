@@ -39,4 +39,5 @@ func main() {
 	atomic_counters()
 	mutex()
 	stateful_goroutines()
+	sorting()
 }
